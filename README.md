@@ -22,6 +22,7 @@ Customer shopping behavior analysis project aimed at uncovering actionable insig
 
 
 
+
 ## 🛠️ Tech Stack
 
 | Category          | Tools & Technologies                        |
@@ -31,39 +32,50 @@ Customer shopping behavior analysis project aimed at uncovering actionable insig
 | **Visualization** | Power BI                                    |
 | **Presentation**  | Power Point                                    |
 
+
 ## ⚙️ Project Workflow
 
 🔹 1. Data Collection
+
 * Imported transactional dataset containing 3,900+ customer purchase records
 * Verified dataset structure, data types, and feature distribution
 
 🔹 2. Data Cleaning & Preprocessing
+
 * Checked for missing values and handled 37 null values in review_rating using median imputation (category-wise)
 * Removed redundant columns (promo_code_used) after validation
 * Standardized column names to snake_case format
 * Ensured consistency in categorical values (e.g., gender, subscription status)
 
 🔹 3. Feature Engineering
+
 * Created age_group by binning customers into segments (Young Adult, Adult, etc.)
 * Derived purchase_frequency_days from purchase behavior
 * Prepared data for better segmentation and analysis
 
 🔹 4. Exploratory Data Analysis (EDA)
+
 * Performed univariate and bivariate analysis
+
 * Analyzed:
+
    * Customer demographics (age, gender)
    * Purchase distribution across categories
    * Seasonal trends and buying patterns
    * Ratings and product performance
+
 * Used visualizations to identify trends and anomalies
 
 🔹 5. Database Integration
+
 * Connected Python environment to PostgreSQL
 * Loaded cleaned dataset into database tables
 * Structured data for efficient SQL querying
 
 🔹 6. SQL-Based Analysis
+
 * Wrote optimized SQL queries to answer business questions:
+
   * Revenue contribution by gender and age group
   * Identification of high-spending customers
   * Top-performing and highly rated products
@@ -72,20 +84,27 @@ Customer shopping behavior analysis project aimed at uncovering actionable insig
   * Customer segmentation (New, Returning, Loyal)
 
 🔹 7. Data Visualization (Power BI)
+
 * Designed interactive dashboard with key KPIs:
+
    * Total revenue
    * Average purchase value
    * Customer distribution
+
 * Implemented filters (category, gender, subscription, shipping type)
+
 * Built charts for:
+
    * Revenue trends
    * Customer segmentation
    * Product performance
 
 🔹 8. Reporting & Presentation
+
 * Documented findings in a structured analytical report
 * Created a presentation using Power Point to communicate insights
 * Highlighted key business recommendations for decision-making
+
 ## 📊 Key Insights
 
 * 💰 Revenue Distribution: Male customers contributed significantly higher revenue compared to female customers
@@ -94,6 +113,7 @@ Customer shopping behavior analysis project aimed at uncovering actionable insig
 * 📈 Top Revenue Group: Young adult customers generated the highest overall revenue
 * 🛍️ Product Performance: Certain products show high sales volume and strong customer ratings
 * 🏷️ Discount Impact: Some products rely heavily on discounts, affecting overall profit margins
+
 ## 🖼️ Dashboard
 
 The Power BI dashboard is designed to provide an interactive and comprehensive view of customer shopping behavior and revenue performance. It enables quick analysis through dynamic filters and visual insights, helping stakeholders make data-driven decisions.
@@ -108,9 +128,11 @@ The Power BI dashboard is designed to provide an interactive and comprehensive v
 * Discount Analysis: Highlights products with high dependency on discounts
 
 🔹 Interactive Features
+
 * Filters for Category, Gender, Subscription Status, and Shipping Type
 * Dynamic visuals that update based on user selection
 * Easy navigation for exploring different business perspectives
+
 ### 🖼️ Dashboard Preview
 
 
@@ -120,30 +142,37 @@ The Power BI dashboard is designed to provide an interactive and comprehensive v
 
 
 
+
 ## ▶️ How to Run
 
 🔹 1. Clone the Repository
 
-git clone https://github.com/Sandy007-coder/Customer_Purchase_Behavior_Revenue_Optimization_Analysis.git
-cd Customer_Purchase_Behavior_Revenue_Optimization_Analysis
+* git clone https://github.com/Sandy007-coder/Customer_Purchase_Behavior_Revenue_Optimization_Analysis.git
+* cd Customer_Purchase_Behavior_Revenue_Optimization_Analysis
+* code .
 
 🔹 2. Download Dataset
+
 * Dataset is hosted externally due to size
 * Download from Google Drive:[Dataset Link] (https://drive.google.com/drive/folders/1igL0qltICAsrDdSvdC7oJl2HZM2czQlx?usp=drive_link)
 * Place the dataset inside the data/ folder
 
 🔹 3. Run Python Analysis
+
 * Navigate to the python_analysis/ folder
 * Open .ipynb notebooks or .py scripts
 * Run using Jupyter Notebook or any Python IDE
 
 🔹 4. Run SQL Analysis
+
 * Import the dataset into PostgreSQL / MySQL / SQL Server
 * Execute queries from the sql/ folder
 
 🔹 5. View Dashboard
+
 * Open the .pbix file from the dashboard/ folder
 * Use Power BI Desktop to explore insights
+
 ## 👨‍💻 Author
 
 Sarveswaran S
