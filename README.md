@@ -28,7 +28,7 @@ The project covers the complete data analytics pipeline — data cleaning, explo
 | **Programming**    | Python (Pandas, NumPy)                         |
 | **Database**       | PostgreSQL (via SQLAlchemy)                    |
 | **Visualization**  | Power BI                                       |
-| **Presentation**   | Gammma AI                                      |
+| **Presentation**   | Gamma AI                                      |
 
 ---
 
