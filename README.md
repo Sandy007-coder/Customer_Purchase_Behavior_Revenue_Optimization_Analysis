@@ -28,7 +28,7 @@ The project covers the complete data analytics pipeline — data cleaning, explo
 | **Programming**    | Python (Pandas, NumPy)                         |
 | **Database**       | PostgreSQL (via SQLAlchemy)                    |
 | **Visualization**  | Power BI                                       |
-| **Presentation**   | PowerPoint                                     |
+| **Presentation**   | Gammma AI                                      |
 
 ---
 
@@ -179,7 +179,6 @@ Customer_Purchase_Behavior_Revenue_Optimization_Analysis/
 ├── dashboard/                # Power BI (.pbix) dashboard file
 ├── report/                   # Business problem doc + full analysis report (PDF)
 ├── presentation/             # Stakeholder presentation (PPTX)
-├── DATASET.md                # Dataset access instructions
 └── README.md                 # Project documentation
 ```
 
@@ -225,9 +224,9 @@ pip install pandas numpy sqlalchemy psycopg2-binary
 **Sarveswaran S**
 
 - 🎓 B.Tech CSE (Cybersecurity)
-- 🔐 Cybersecurity, Python & Data Analytics Enthusiast
+- 🔐 Cybersecurity, Python, Full-Stack Development & Data Analytics Enthusiast
 - 🎯 Interested in Penetration Testing, Red Teaming, and Data Analysis
 
-🔗 GitHub: [Sandy007-coder](https://github.com/Sandy007-coder)
+🔗 GitHub: https://github.com/Sandy007-coder
 
-🔗 LinkedIn: [sarveswaran-cybersec](https://www.linkedin.com/in/sarveswaran-cybersec?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+🔗 LinkedIn: https://www.linkedin.com/in/sarveswaran-cybersec?utm_source=share_via&utm_content=profile&utm_medium=member_android
