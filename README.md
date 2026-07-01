@@ -173,7 +173,7 @@ The Power BI dashboard provides an interactive, comprehensive view of customer s
 ```
 Customer_Purchase_Behavior_Revenue_Optimization_Analysis/
 │
-├── data/                     # Dataset (see DATASET.md — hosted on Google Drive)
+├── data/                     # Dataset (see README.md — hosted on Google Drive)
 ├── python_analysis/          # Jupyter notebook — cleaning, feature engineering, EDA
 ├── sql/                      # customer_behavior_sql_queries.sql — all business queries
 ├── dashboard/                # Power BI (.pbix) dashboard file
