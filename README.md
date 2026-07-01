@@ -6,7 +6,6 @@ Customer shopping behavior analysis using **Python, SQL, and Power BI**. Perform
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-orange?logo=postgresql)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
